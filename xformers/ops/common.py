@@ -21,6 +21,7 @@ def get_operator(library: str, name: str):
 
 
 def get_xformers_operator(name: str):
+    print("I'm here.")
     return get_operator("xformers", name)
 
 

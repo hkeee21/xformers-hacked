@@ -17,7 +17,6 @@ class ScaledIndexAddFw(BaseOperator):
     OPERATOR_CATEGORY = "indexing"
     NAME = "scaled_index_addF"
 
-
 @register_operator
 class ScaledIndexAddBw(BaseOperator):
     OPERATOR = get_xformers_operator("scaled_index_addB")
